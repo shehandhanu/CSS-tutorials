@@ -1,0 +1,185 @@
+/* The CSS Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* globle css */
+body {
+  background-color: rgb(103, 133, 143);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* css class */
+.p1 {
+  color: brown;
+}
+
+/* css id */
+#p2 {
+  color: darkblue;
+}
+
+/* all p1's inside <p> tags  */
+p.p1 {
+  font-family: "Sofia", sans-serif;
+  background-color: darkgray;
+  border: 2px solid Tomato;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h2,
+h3,
+h4 {
+  color: #2ffd8c;
+  text-decoration: overline;
+  /* text-decoration: line-through; */
+  text-transform: uppercase;
+  /* indent means in para it keep left space  */
+  text-indent: 50px;
+  /* text-shadow: 2px 2px red; */
+  text-shadow: 2px 2px 5px red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+.div1 {
+  height: 100px;
+  width: 100px;
+  background-color: darkgreen;
+}
+.div2 {
+  background-image: url("./samplex.jpg");
+  /* background-repeat: repeat-x; */
+  /* repeated only horizontally */
+
+  /* background-repeat: no-repeat; */
+  /* no repeat  */
+
+  background-position: right top;
+
+  /* background-attachment: fixed; */
+
+  background-attachment: scroll;
+  height: 100px;
+  width: 100px;
+}
+.div3 {
+  background: #00000f url("./samplex.jpg") no-repeat right top;
+  height: 100px;
+  width: 100px;
+}
+
+.border1 {
+  border-style: dotted;
+  border-width: 5px;
+}
+.border2 {
+  border-style: dashed;
+  border-width: medium;
+}
+.border3 {
+  border-style: solid;
+  border-width: 2px;
+}
+.border4 {
+  border-style: double;
+  border-width: thick;
+}
+.border5 {
+  border-style: groove;
+  border-width: 5px 20px;
+}
+.border6 {
+  border-style: ridge;
+  border-width: 5px 10px 15px 20px;
+}
+.border7 {
+  border-color: red;
+  border-style: inset;
+}
+.border8 {
+  border-style: outset;
+  border-width: 20px;
+  border-radius: 20px;
+  border-color: red green blue yellow;
+}
+
+.border9 {
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+
+.margins {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.paddings {
+  padding: 50px;
+  height: 200px;
+  width: 400px;
+  background-color: royalblue;
+}
+
+.box {
+  font-family: Copperplate, Papyrus, fantasy;
+  background-color: rgb(212, 44, 44);
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+/* out line is not a border those two are deferance with each other */
+/* dotted {outline-style: dotted;}
+dashed {outline-style: dashed;}
+solid {outline-style: solid;}
+double {outline-style: double;}
+groove {outline-style: groove;}
+ridge {outline-style: ridge;}
+inset {outline-style: inset;}
+outset {outline-style: outset;} */
+
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: left;
+}
+.align-left {
+  text-align: right;
+}
+
+.box2 {
+  text-indent: 50px;
+  background-color: rgb(212, 44, 44);
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  font-family: "Brush Script MT", cursive;
+  /* letter-spacing: 1px; */
+  /* word-spacing: 0px; */
+  margin: 20px;
+  /* justify use to align both left and right equaly */
+  text-align: justify;
+}
+
+a {
+  color: hotpink;
+}
